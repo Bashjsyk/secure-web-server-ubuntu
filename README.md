@@ -1,12 +1,12 @@
 # Secure Web Server Deployment and Monitoring Using Ubuntu Linux
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the deployment, configuration, security, and basic monitoring of a web server using Ubuntu Linux.
 
 The project was created to gain practical experience with Linux server administration, web server deployment, network security, access control, firewall configuration, intrusion prevention, and system monitoring.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 The main objectives of this project are to:
 
@@ -21,7 +21,7 @@ The main objectives of this project are to:
 - Document the deployment process.
 - Upload and manage the project using GitHub.
 
-## 🛠️ Technologies and Tools
+## Technologies and Tools
 
 - Ubuntu Linux
 - Nginx
@@ -33,7 +33,7 @@ The main objectives of this project are to:
 - GitHub
 - VirtualBox
 
-## 🔐 Security Features
+## Security Features
 
 ### UFW Firewall
 
@@ -55,7 +55,7 @@ HTTPS was configured to provide encrypted communication between clients and the 
 
 SSH and Nginx logs were monitored to help identify authentication attempts, web requests, and security events.
 
-## 🌐 Web Server
+## Web Server
 
 Nginx was installed and configured as the web server.
 
@@ -67,7 +67,7 @@ The server was tested to confirm that Nginx was active and accepting web connect
 - HTTPS: Port 443
 - SSH: Port 22
 
-## 📊 Monitoring
+## Monitoring
 
 A server monitoring script was created to provide information about the system and server status.
 
@@ -82,7 +82,7 @@ The monitoring script checks important information such as:
 
 The monitoring script was tested successfully on the Ubuntu server.
 
-## 🧪 Testing and Verification
+##  Testing and Verification
 
 The following components were successfully tested:
 
@@ -96,7 +96,7 @@ The following components were successfully tested:
 - Monitoring script
 - SSH and Nginx logs
 
-## 📁 Project Files
+## Project Files
 
 ```text
 project 1/
@@ -104,7 +104,7 @@ project 1/
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 
 1. Start the Ubuntu Virtual Machine in VirtualBox.
 2. Open the terminal.
@@ -139,7 +139,7 @@ sudo ufw status
 sudo fail2ban-client status
 ```
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project provided practical experience with:
 
@@ -152,15 +152,4 @@ This project provided practical experience with:
 * Log monitoring
 * Server security
 * Git and GitHub
-
-## 👤 Author
-
-**Basheer**
-
-
-## 📌 Project Status
-
-**Completed**
-
-The project successfully demonstrates the deployment and basic security of an Ubuntu-based web server using Nginx, HTTPS, UFW, SSH, Fail2Ban, and monitoring tools.
 
